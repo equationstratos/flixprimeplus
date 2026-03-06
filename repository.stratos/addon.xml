@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.stratos" name="Stratos Repo" version="1.0.2" provider-name="Stratos">
+    <extension point="xbmc.addon.repository" name="Stratos Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Dépôt Stratos pour Flemmix</summary>
+        <description>Mises à jour automatiques pour l'addon Flemmix Stratos.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>repository.stratos/icon.png</icon>
+            <fanart>repository.stratos/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
