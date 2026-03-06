@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.stratos" name="FLIX PRIME PLUS" version="1.0.1" provider-name="Stratos/Stock">
+<addon id="plugin.video.stratos" name="FLIX PRIME PLUS" version="1.0.2" provider-name="Stratos/Stock">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -22,7 +22,7 @@
     </extension>
 </addon>
 
-<addon id="repository.stratos" name="Stratos Repository" version="1.0.0" provider-name="Stratos">
+<addon id="repository.stratos" name="Stratos Repository" version="1.0.2" provider-name="Stratos">
     <extension point="xbmc.addon.repository" name="Stratos Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/addons.xml</info>
