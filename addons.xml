@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="plugin.video.stratos" name="FLIX PRIME PLUS" version="1.0.1" provider-name="Stratos/Stock">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.3"/>
+        <import addon="script.module.resolveurl" version="5.1.193"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Extension Vidéo Stratos</summary>
+        <description>Le plugin pour regarder vos contenus.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>plugin.video.stratos/icon.png</icon>
+            <fanart>plugin.video.stratos/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.stratos" name="Stratos Repository" version="1.0.0" provider-name="Stratos">
+    <extension point="xbmc.addon.repository" name="Stratos Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/equationstratos/kodi/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/equationstratos/kodi/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/equationstratos/kodi/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Dépôt Officiel Stratos</summary>
+        <description>Source de mise à jour pour Flemmix.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>repository.stratos/icon.png</icon>
+            <fanart>repository.stratos/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+</addons>
