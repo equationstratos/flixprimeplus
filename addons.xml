@@ -12,14 +12,14 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Extension Vidéo Stratos</summary>
-        <description>Le plugin pour regarder vos contenus.</description>
         <platform>all</platform>
         <assets>
             <icon>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/icon.png</icon>
             <fanart>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</fanart>
             <screenshot>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</screenshot>
         </assets>
+        <summary>Extension Vidéo FLIX PRIME PLUS</summary>
+        <description>Le plugin pour regarder vos contenus.</description>
     </extension>
 </addon>
 
