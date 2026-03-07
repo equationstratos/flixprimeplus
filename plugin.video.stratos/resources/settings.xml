@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings version="1.5">
+    <section id="plugin.video.stratos">
+        <category label="Sécurité">
+            <group>
+                <setting id="stratflix_license_hash" type="text" label="Hash de Licence" default=""/>
+                <setting id="stratflix_date" type="text" label="Date Activation" default=""/>
+            </group>
+        </category>
+    </section>
+</settings>
