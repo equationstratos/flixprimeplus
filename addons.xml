@@ -16,8 +16,8 @@
         <description>Le plugin pour regarder vos contenus.</description>
         <platform>all</platform>
         <assets>
-            <icon>plugin.video.stratos/icon.png</icon>
-            <fanart>plugin.video.stratos/fanart.jpg</fanart>
+            <icon>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/icon.png</icon>
+            <fanart>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
