@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.stratos" name="FLIX PRIME PLUS" version="1.0.4" provider-name="Stratos/Stock">
+<addon id="plugin.video.stratos" name="FLIX PRIME PLUS" version="1.1.0" provider-name="Stratos/Stock">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests" version="2.22.0"/>
-        <import addon="script.module.beautifulsoup4" version="4.6.3"/>
-        <import addon="script.module.resolveurl" version="5.1.193"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.resolveurl"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -18,12 +18,12 @@
             <fanart>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</fanart>
             <screenshot>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</screenshot>
         </assets>
-        <summary>Extension Vidéo FLIX PRIME PLUS</summary>
-        <description>Le plugin pour regarder vos contenus.</description>
+        <summary lang="fr">Extension Vidéo FLIX PRIME PLUS</summary>
+        <description lang="fr">Le plugin Stratos pour regarder vos contenus sur Flemmix.</description>
     </extension>
 </addon>
 
-<addon id="repository.stratos" name="Stratos Repository" version="1.0.4" provider-name="Stratos">
+<addon id="repository.stratos" name="Stratos Repository" version="1.1.0" provider-name="Stratos">
     <extension point="xbmc.addon.repository" name="Stratos Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/addons.xml</info>
@@ -33,11 +33,10 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Dépôt Officiel Stratos</summary>
-        <description>Source de mise à jour pour Flemmix.</description>
         <platform>all</platform>
         <assets>
-            <icon>repository.stratos/icon.png</icon>
-            <fanart>repository.stratos/fanart.jpg</fanart>
+            <icon>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/repository.stratos/icon.png</icon>
+            <fanart>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/repository.stratos/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
