@@ -12,8 +12,8 @@
         <description>Mises à jour automatiques pour l'addon Flemmix Stratos.</description>
         <platform>all</platform>
         <assets>
-            <icon>repository.stratos/icon.png</icon>
-            <fanart>repository.stratos/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
