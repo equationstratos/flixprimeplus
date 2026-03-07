@@ -16,7 +16,6 @@
         <assets>
             <icon>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/icon.png</icon>
             <fanart>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</fanart>
-            <screenshot>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</screenshot>
         </assets>
         <summary lang="fr">Extension Vidéo FLIX PRIME PLUS</summary>
         <description lang="fr">Le plugin Stratos pour regarder vos contenus sur Flemmix.</description>
