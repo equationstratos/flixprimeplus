@@ -14,7 +14,8 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <assets>
-            <icon>http://192.168.1.107/icon.png</icon>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
         <summary lang="fr">Extension Vidéo FLIX PRIME PLUS beta</summary>
         <description lang="fr">Le plugin Stratos pour regarder vos contenus sur Flemmix.</description>
