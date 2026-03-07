@@ -14,8 +14,8 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <assets>
-            <icon>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/icon.png</icon>
-            <fanart>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/plugin.video.stratos/fanart.jpg</fanart>
+            <icon>https://i.postimg.cc/9M670m9X/icon.png</icon>
+            <fanart>https://i.postimg.cc/q7mX0n4p/fanart.jpg</fanart>
         </assets>
         <summary lang="fr">Extension Vidéo FLIX PRIME PLUS</summary>
         <description lang="fr">Le plugin Stratos pour regarder vos contenus sur Flemmix.</description>
