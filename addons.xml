@@ -15,9 +15,8 @@
         <platform>all</platform>
         <assets>
             <icon>http://192.168.1.107/icon.png</icon>
-            <fanart>http://192.168.1.107/fanart.jpg</fanart>
         </assets>
-        <summary lang="fr">Extension Vidéo FLIX PRIME PLUS</summary>
+        <summary lang="fr">Extension Vidéo FLIX PRIME PLUS beta</summary>
         <description lang="fr">Le plugin Stratos pour regarder vos contenus sur Flemmix.</description>
     </extension>
 </addon>
