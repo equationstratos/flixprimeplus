@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.stratos" name="FLIX PRIME PLUS beta1" version="7.1.6" provider-name="Stratos/Stock">
+<addon id="plugin.video.stratos" name="FLIX PRIME PLUS beta1" version="7.1.7" provider-name="Stratos/Stock">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
