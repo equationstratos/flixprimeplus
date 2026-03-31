@@ -6,7 +6,7 @@
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.resolveurl"/>
+        <import addon="script.module.resolveurl" version="5.1.193"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
