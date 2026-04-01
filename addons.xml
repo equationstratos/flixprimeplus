@@ -33,9 +33,18 @@
             <datadir zip="true">https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/</datadir>
         </dir>
     </extension>
+    
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jandob/repository.jandob/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jandob/repository.jandob/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jandob/repository.jandob/master/</datadir>
+        </dir>
+    </extension>
+
     <extension point="xbmc.addon.metadata">
         <summary>Dépôt Officiel Stratos</summary>
-        <description lang="fr">Dépot Officiel Stratos</description>
+        <description lang="fr">Dépot Officiel Stratos - Inclut la résolution automatique des dépendances ResolveURL.</description>
         <platform>all</platform>
         <assets>
             <icon>https://raw.githubusercontent.com/equationstratos/flixprimeplus/main/repository.stratos/icon.png</icon>
